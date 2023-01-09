@@ -10,12 +10,7 @@ html {
 }
 .header-txt-style {
     color: aliceblue;
-    font-family: Georgia;
-    
-}
-
-#sub-header {
-
+    font-family: Georgia;  
 }
 #header-align {
     font-size: 90px;
@@ -40,9 +35,9 @@ html {
     width: 500px;
     display: flex;
     margin-left: 700px;
-    margin-top: 0px;
+    margin-top: 50px;
     border-radius: 60px;
-
+    margin-bottom: 50px;
 }
 #p1 {
     color: aliceblue;
@@ -53,15 +48,29 @@ html {
     display: flex;
     margin-left: 760px;
     margin-top: -150px;
+    line-height: 1.5em;
+    background-color: rgba(7, 88, 26, 0.4);
+    padding: .5em;
+    border-radius: .5em;;
+}
+#p2 {
+    color: aliceblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: tahoma;
+    text-align: center;
+    margin-bottom: 1.5em;
 }
 button {
     background-color:rgb(255, 255, 255);
     border: none;
-    height: 75px;
-    width: 175px;
+    height: 65px;
+    width: 150px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: bold;
     margin-left: 400px;
+    transform: translateY(13em);
     font-weight: 30px;
     color: forestgreen;
 }
